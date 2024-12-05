@@ -166,6 +166,7 @@ namespace Tyuiu.SinitsinDV.Sprint6.Task0.V25
             MaximizeBox = false;
             Name = "FormMain";
             Text = "Спринт 6 | Таск 0 | Вариант 25 | Синицин Д.В. |";
+            Load += FormMain_Load;
             groupBoxValue.ResumeLayout(false);
             groupBoxValue.PerformLayout();
             groupBoxTask.ResumeLayout(false);

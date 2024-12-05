@@ -25,8 +25,8 @@ namespace Tyuiu.SinitsinDV.Sprint6.Task0.V25
         private void textBoxVarX_KeyPress(object sender, KeyPressEventArgs e)
         {
             if ((e.KeyChar <= 47 || e.KeyChar >= 58) && (e.KeyChar != ',') && (e.KeyChar != 8))
-            { 
-                 e.Handled = true;
+            {
+                e.Handled = true;
             }
         }
 
@@ -36,6 +36,11 @@ namespace Tyuiu.SinitsinDV.Sprint6.Task0.V25
         }
 
         private void textBoxVarX_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void FormMain_Load(object sender, EventArgs e)
         {
 
         }
