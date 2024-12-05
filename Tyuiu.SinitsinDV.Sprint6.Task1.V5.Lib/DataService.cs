@@ -18,11 +18,11 @@ namespace Tyuiu.SinitsinDV.Sprint6.Task1.V5.Lib
                 }
                 else
                 {
-                    y = Math.Sin(x) + (Math.Cos(2 * x) / 2) - 1.5 * x;
+                    y = Math.Round(Math.Sin(x) + (Math.Cos(2 * x) / 2) - 1.5 * x, 2);
                     
                 }
                 
-                Math.Round(valueArray[count] = y);
+                valueArray[count] = y;
                 count++;
 
 
