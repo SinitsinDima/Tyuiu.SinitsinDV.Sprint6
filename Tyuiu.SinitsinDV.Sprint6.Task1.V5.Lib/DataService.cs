@@ -12,15 +12,10 @@ namespace Tyuiu.SinitsinDV.Sprint6.Task1.V5.Lib
             int count = 0;
             for (int x = startValue; x <= stopValue; x++)
             {
-                if(x == 0)
-                {
-                   y = 0;
-                }
-                else
-                {
-                    y = Math.Round(Math.Sin(x) + (Math.Cos(2 * x) / 2) - 1.5 * x, 2);
+                
+                y = Math.Round(Math.Sin(x) + (Math.Cos(2 * x) / 2) - 1.5 * x, 2);
                     
-                }
+                
                 
                 valueArray[count] = y;
                 count++;
