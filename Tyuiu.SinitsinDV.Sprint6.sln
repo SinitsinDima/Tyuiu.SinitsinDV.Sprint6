@@ -53,11 +53,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tyuiu.SinitsinDV.Sprint6.Ta
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task6", "Task6", "{CBD3B44B-3CAE-40C7-989F-3E5BA409B3A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.SinitsinDV.Sprint6.Task6.V9.Lib", "Tyuiu.SinitsinDV.Sprint6.Task6.V9.Lib\Tyuiu.SinitsinDV.Sprint6.Task6.V9.Lib.csproj", "{FB277349-AACC-4396-A45B-AA6D4A843778}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tyuiu.SinitsinDV.Sprint6.Task6.V9.Lib", "Tyuiu.SinitsinDV.Sprint6.Task6.V9.Lib\Tyuiu.SinitsinDV.Sprint6.Task6.V9.Lib.csproj", "{FB277349-AACC-4396-A45B-AA6D4A843778}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.SinitsinDV.Sprint6.Task6.V9.Test", "Tyuiu.SinitsinDV.Sprint6.Task6.V9.Test\Tyuiu.SinitsinDV.Sprint6.Task6.V9.Test.csproj", "{2D4D3B52-1F3D-4999-8B4F-7AEEF9BE1749}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tyuiu.SinitsinDV.Sprint6.Task6.V9.Test", "Tyuiu.SinitsinDV.Sprint6.Task6.V9.Test\Tyuiu.SinitsinDV.Sprint6.Task6.V9.Test.csproj", "{2D4D3B52-1F3D-4999-8B4F-7AEEF9BE1749}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.SinitsinDV.Sprint6.Task6.V9", "Tyuiu.SinitsinDV.Sprint6.Task6.V9\Tyuiu.SinitsinDV.Sprint6.Task6.V9.csproj", "{D80CCA46-F9C9-465B-828B-EBD457FF9A4F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tyuiu.SinitsinDV.Sprint6.Task6.V9", "Tyuiu.SinitsinDV.Sprint6.Task6.V9\Tyuiu.SinitsinDV.Sprint6.Task6.V9.csproj", "{D80CCA46-F9C9-465B-828B-EBD457FF9A4F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task7", "Task7", "{3716BBE0-79C8-4CA2-BB68-869DF66EE486}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
