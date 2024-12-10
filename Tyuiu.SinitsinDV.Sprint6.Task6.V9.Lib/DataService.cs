@@ -7,9 +7,9 @@ namespace Tyuiu.SinitsinDV.Sprint6.Task6.V9.Lib
 {
     public class DataService : ISprint6Task6V9
     {
-        public string CollectTextFromFile(string str, string path)
+        public string CollectTextFromFile(string path)
         {
-            List<string> lastWords = new List<string>();  
+            List<string> lastWords = new List<string>();
 
             using (StreamReader reader = new StreamReader(path))
             {
@@ -17,9 +17,8 @@ namespace Tyuiu.SinitsinDV.Sprint6.Task6.V9.Lib
                 while ((line = reader.ReadLine()) != null)
                 {
                     
-                    if (line.Contains(str))
+                    if (!string.IsNullOrWhiteSpace(line))
                     {
-                        
                         var words = line.Split(' ', StringSplitOptions.RemoveEmptyEntries);
                         if (words.Length > 0)
                         {
@@ -29,8 +28,7 @@ namespace Tyuiu.SinitsinDV.Sprint6.Task6.V9.Lib
                 }
             }
 
-            
-            return string.Join(" ", lastWords);
+            return string.Join(" ", lastWords);  
         }
     }
 }

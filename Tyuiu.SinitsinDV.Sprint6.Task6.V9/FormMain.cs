@@ -22,7 +22,7 @@ namespace Tyuiu.SinitsinDV.Sprint6.Task6.V9
         private void buttonOK_Click(object sender, EventArgs e)
         {
             string str = "";
-            textBoxResult.Text = ds.CollectTextFromFile(str, openFilePath);
+            textBoxResult.Text = ds.CollectTextFromFile(openFilePath);
 
         }
 
