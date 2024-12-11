@@ -121,11 +121,14 @@
     <value>Дан файл InPutFileTask6V9.txt который может находится в любом месте на диске. Загрузить файл в textBoxIn через openFileDialog.
 Вывести последнее слово каждой строки в результирующею строку и вывести ее в textBoxOut.</value>
   </data>
+  <metadata name="toolTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>156, 17</value>
+  </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="buttonFile.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1
-        MAAA6mAAADqYAAAXcJy6UTwAAAAJcEhZcwAADr4AAA6+AepCscAAAAAHdElNRQfoDAkOOBpuWPlPAAAA
+        MAAA6mAAADqYAAAXcJy6UTwAAAAJcEhZcwAADr0AAA69AUf7kK0AAAAHdElNRQfoDAkOOBpuWPlPAAAA
         GXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAzxJREFUWEftmF1IU2EYx9+zufyoNDEX
         OC1NN6PN5UepUG5us1qimUKU0CdEWV0FCSUVTaG6KCqtWKTTMtSJkF8ZVLNPnEWYfVx1l6ugi7C8cZb1
         73k1upBNz2DWzV74cS7e85znt/fs7Lz/MT6kEoFlLw9ju80L2Pa1ntmTH8mSFHMYner3sZAoowtXSyWs
@@ -143,13 +146,10 @@
         MOux1ez84azZozyLWSuymSk9fOIvAcYY+w193Gn8e/uErAAAAABJRU5ErkJggg==
 </value>
   </data>
-  <metadata name="toolTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>156, 17</value>
-  </metadata>
   <data name="buttonOK.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1
-        MAAA6mAAADqYAAAXcJy6UTwAAAAJcEhZcwAADr4AAA6+AepCscAAAAAHdElNRQfoDAkOOBpuWPlPAAAA
+        MAAA6mAAADqYAAAXcJy6UTwAAAAJcEhZcwAADr0AAA69AUf7kK0AAAAHdElNRQfoDAkOOBpuWPlPAAAA
         GXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAABUVJREFUWEetlwtQVGUUx3dZGGhNoCzl
         YQVksMCQZSUssPJ0pyZfIY9dtCEbM5usMcUaTUEeSpTFkFih5CtNHBh7YVpD6ZiCPBWj2REfiLxESt4g
         6sy/cy5zd9iR3S5L38xv7sdw7zn/75z/9929MhobFQpFl729PcaFgwNsbW1Bz1cRz3Igq4ZcLu94Y8UK
@@ -198,5 +198,8 @@
   </data>
   <metadata name="openFileDialogTask.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
+  </metadata>
+  <metadata name="toolTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>156, 17</value>
   </metadata>
 </root>

@@ -70,7 +70,7 @@
             groupBoxValue.Controls.Add(textBoxLoadFromFile);
             groupBoxValue.Location = new Point(12, 199);
             groupBoxValue.Name = "groupBoxValue";
-            groupBoxValue.Size = new Size(455, 324);
+            groupBoxValue.Size = new Size(460, 324);
             groupBoxValue.TabIndex = 0;
             groupBoxValue.TabStop = false;
             groupBoxValue.Text = "Ввод данных";
@@ -81,26 +81,26 @@
             textBoxLoadFromFile.Multiline = true;
             textBoxLoadFromFile.Name = "textBoxLoadFromFile";
             textBoxLoadFromFile.ReadOnly = true;
-            textBoxLoadFromFile.Size = new Size(446, 296);
+            textBoxLoadFromFile.Size = new Size(451, 296);
             textBoxLoadFromFile.TabIndex = 0;
             // 
             // groupBoxOutPutFile
             // 
             groupBoxOutPutFile.Controls.Add(textBoxResult);
-            groupBoxOutPutFile.Location = new Point(473, 210);
+            groupBoxOutPutFile.Location = new Point(478, 210);
             groupBoxOutPutFile.Name = "groupBoxOutPutFile";
-            groupBoxOutPutFile.Size = new Size(571, 313);
+            groupBoxOutPutFile.Size = new Size(566, 313);
             groupBoxOutPutFile.TabIndex = 0;
             groupBoxOutPutFile.TabStop = false;
             groupBoxOutPutFile.Text = "Вывод ";
             // 
             // textBoxResult
             // 
-            textBoxResult.Location = new Point(6, 51);
+            textBoxResult.Location = new Point(6, 36);
             textBoxResult.Multiline = true;
             textBoxResult.Name = "textBoxResult";
             textBoxResult.ReadOnly = true;
-            textBoxResult.Size = new Size(559, 256);
+            textBoxResult.Size = new Size(610, 271);
             textBoxResult.TabIndex = 0;
             // 
             // buttonFile
@@ -128,7 +128,7 @@
             // buttonHelp
             // 
             buttonHelp.Image = (Image)resources.GetObject("buttonHelp.Image");
-            buttonHelp.Location = new Point(972, 26);
+            buttonHelp.Location = new Point(981, 12);
             buttonHelp.Name = "buttonHelp";
             buttonHelp.Size = new Size(57, 51);
             buttonHelp.TabIndex = 3;
